@@ -18,28 +18,4 @@
         <PackageReference Include="Xamarin.AndroidX.Lifecycle.Process" />
         <PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" />
     </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.txt" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.png" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.png" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.txt" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.txt" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="C:\Users\Daniel\source\repos\Orderlyze\Orderlyze_Mobile\src\External\shiny\src\nuget.png" />
-    </ItemGroup>
 </Project>

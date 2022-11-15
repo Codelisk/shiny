@@ -1,14 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31815.197
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{482108EE-8D47-4693-80B4-B609B536491B}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		.github\workflows\build.yml = .github\workflows\build.yml
-		LICENSE.md = LICENSE.md
-		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.BluetoothLE", "src\Shiny.BluetoothLE\Shiny.BluetoothLE.csproj", "{007465D6-5714-4E7E-929D-6F01D04E43B6}"
@@ -47,8 +44,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{6374E4D9-1
 		src\Directory.build.props = src\Directory.build.props
 		src\Directory.build.targets = src\Directory.build.targets
 		src\global.json = src\global.json
-		src\nuget.png = src\nuget.png
-		src\nuget.txt = src\nuget.txt
 		version.json = version.json
 	EndProjectSection
 EndProject
@@ -56,20 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Net.Http", "src\Shiny
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Core", "src\Shiny.Core\Shiny.Core.csproj", "{6E3ADF29-8660-4AD5-A9C3-5B2B7B4F99E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShinyBuild", "build\ShinyBuild.csproj", "{FF821280-F658-4483-9191-076AFE56FA83}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3A15354E-BAD2-4195-BE6B-49ED2B4E56E6}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yml = .github\workflows\build.yml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Jobs", "src\Shiny.Jobs\Shiny.Jobs.csproj", "{38783C53-AE80-4979-B4BC-5CE5A7EF8736}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Push.OneSignal", "src\Shiny.Push.OneSignal\Shiny.Push.OneSignal.csproj", "{E2FEBF2F-FB6A-47AB-9B16-DA0CF0D7D429}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Push.Common", "src\Shiny.Push.Common\Shiny.Push.Common.csproj", "{DF1AEE6A-0BDA-450E-AD40-09F3CCAB2D32}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shiny.Tests.Shared", "tests\Shiny.Tests.Shared\Shiny.Tests.Shared.shproj", "{92E5ED57-CC67-4E12-910A-30F957992B7B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.BluetoothLE.Hosting", "src\Shiny.BluetoothLE.Hosting\Shiny.BluetoothLE.Hosting.csproj", "{BDAF03A2-71FB-411C-94B0-05DDAFC0E65C}"
 EndProject
@@ -93,23 +79,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "issue templates", "issue te
 		.github\ISSUE_TEMPLATE\feature_request.yml = .github\ISSUE_TEMPLATE\feature_request.yml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7ABDA2A1-3B8C-456D-8347-9C03C1DACC73}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yml = .github\workflows\build.yml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Logging.AppCenter", "src\Shiny.Logging.AppCenter\Shiny.Logging.AppCenter.csproj", "{9B392162-FC9B-4DBA-8391-6795F0B0A7F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Logging.Firebase", "src\Shiny.Logging.Firebase\Shiny.Logging.Firebase.csproj", "{D862B536-0280-4128-BDBB-78418C0D0C9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Nfc", "src\Shiny.Nfc\Shiny.Nfc.csproj", "{C904374A-4D15-4EC8-B461-6ED6FE433B70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shiny.Notifications.Common", "src\Shiny.Notifications.Common\Shiny.Notifications.Common.csproj", "{B6CDD847-90C2-461F-9F22-F932000357AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shiny.Notifications.Common", "src\Shiny.Notifications.Common\Shiny.Notifications.Common.csproj", "{B6CDD847-90C2-461F-9F22-F932000357AD}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		tests\Shiny.Tests.Shared\Shiny.Tests.Shared.projitems*{92e5ed57-cc67-4e12-910a-30f957992b7b}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
@@ -925,62 +903,6 @@ Global
 		{6E3ADF29-8660-4AD5-A9C3-5B2B7B4F99E7}.Release|x64.Build.0 = Release|Any CPU
 		{6E3ADF29-8660-4AD5-A9C3-5B2B7B4F99E7}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E3ADF29-8660-4AD5-A9C3-5B2B7B4F99E7}.Release|x86.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|ARM64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|ARM64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|Any CPU.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|ARM.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|ARM.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|ARM64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|ARM64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|iPhone.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|x64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|x64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|x86.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.AppStore|x86.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|ARM.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|x64.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Debug|x86.Build.0 = Debug|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|ARM.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|ARM.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|ARM64.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|iPhone.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|x64.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|x64.Build.0 = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|x86.ActiveCfg = Release|Any CPU
-		{FF821280-F658-4483-9191-076AFE56FA83}.Release|x86.Build.0 = Release|Any CPU
 		{38783C53-AE80-4979-B4BC-5CE5A7EF8736}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
 		{38783C53-AE80-4979-B4BC-5CE5A7EF8736}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
 		{38783C53-AE80-4979-B4BC-5CE5A7EF8736}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -1560,16 +1482,13 @@ Global
 		{4EE9F1FF-EE8C-4D1F-8687-7DFE368C13A4} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{3BF25B68-89CE-4A2B-A7B7-C91A6C1F9BC1} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{6E3ADF29-8660-4AD5-A9C3-5B2B7B4F99E7} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
-		{FF821280-F658-4483-9191-076AFE56FA83} = {3A15354E-BAD2-4195-BE6B-49ED2B4E56E6}
 		{38783C53-AE80-4979-B4BC-5CE5A7EF8736} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{E2FEBF2F-FB6A-47AB-9B16-DA0CF0D7D429} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{DF1AEE6A-0BDA-450E-AD40-09F3CCAB2D32} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
-		{92E5ED57-CC67-4E12-910A-30F957992B7B} = {7C114E37-36C8-4971-91C6-E2557DDCB4E8}
 		{BDAF03A2-71FB-411C-94B0-05DDAFC0E65C} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{0745F3A7-C59F-472B-8F2B-BA5E0B1A5B42} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{D930EB2D-C7CC-43BC-9A69-ECF9F304930F} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{60275342-B149-46E0-B609-12F57FFB799E} = {75481E6D-0D2C-4AFA-81AE-73A7756EA9C0}
-		{7ABDA2A1-3B8C-456D-8347-9C03C1DACC73} = {75481E6D-0D2C-4AFA-81AE-73A7756EA9C0}
 		{9B392162-FC9B-4DBA-8391-6795F0B0A7F4} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{D862B536-0280-4128-BDBB-78418C0D0C9C} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
 		{C904374A-4D15-4EC8-B461-6ED6FE433B70} = {6374E4D9-1BD8-4880-B603-AFDEA8345D7E}
@@ -1582,12 +1501,11 @@ Global
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
-		$0.TextStylePolicy = $2
+		$0.TextStylePolicy = $4
 		$2.inheritsSet = null
 		$2.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $3
 		$3.scope = text/x-csharp
-		$0.TextStylePolicy = $4
 		$4.inheritsSet = null
 		$4.scope = application/x-msbuild
 		$0.XmlFormattingPolicy = $5
